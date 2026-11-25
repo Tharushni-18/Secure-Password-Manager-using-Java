@@ -1,29 +1,29 @@
  Secure Password Manager Using Core Java
 
-* Project Overview
+★ Project Overview
 
 The **Secure Password Manager** is a Java-based application designed to securely store and manage website login credentials. It allows users to add, view, search, update, and delete passwords using a simple menu-driven interface.
 
 The application uses **AES-256-GCM encryption** to protect stored credentials and **PBKDF2WithHmacSHA256** to derive an encryption key from the user's master password.
 
-* Objectives
+★ Objectives
 
-- Securely store website login credentials.
-- Protect sensitive information using encryption.
-- Generate strong random passwords.
-- Provide easy credential management.
-- Maintain encrypted data between application sessions.
+1. Securely store website login credentials.
+2. Protect sensitive information using encryption.
+3. Generate strong random passwords.
+4. Provide easy credential management.
+5. Maintain encrypted data between application sessions.
   
-* Technologies Used
+★ Technologies Used
 
-- Programming Language: Java
-- Concepts: Object-Oriented Programming, Collections, Exception Handling, File Handling
-- Encryption: AES-256-GCM
-- Key Derivation: PBKDF2WithHmacSHA256
-- IDE:Visual Studio Code
-- Storage: Local encrypted file (`vault.dat`)
+1. Programming Language: Java
+2. Concepts: Object-Oriented Programming, Collections, Exception Handling, File Handling
+3. Encryption: AES-256-GCM
+4. Key Derivation: PBKDF2WithHmacSHA256
+5. IDE:Visual Studio Code
+6. Storage: Local encrypted file (`vault.dat`)
 
-* Features
+★ Features
 
 1. Master Password Authentication – Create a master password to access the vault.
 2. Add Credentials – Save website names, usernames, and passwords.
@@ -35,7 +35,7 @@ The application uses **AES-256-GCM encryption** to protect stored credentials an
 8. Encrypted Storage – Store credentials in an encrypted local vault.
 9. Data Persistence – Retain saved credentials after closing and reopening the application.
 
-* Project Structure
+★ Project Structure
 
 SecurePasswordManager/
 │
@@ -54,7 +54,7 @@ SecurePasswordManager/
 
 └── vault.dat
 
-*  Application Menu
+ ★ Application Menu
 
 
 1. Add Credential
@@ -72,31 +72,31 @@ SecurePasswordManager/
 7. Exit
 
 
-* Security Implementation
+★ Security Implementation
 
-- AES-256-GCM: Encrypts credentials and provides authenticated encryption.
-- PBKDF2WithHmacSHA256: Derives a 256-bit encryption key from the master password.
-- Random Salt: Uses a unique salt for key derivation.
-- Random Nonce: Uses a fresh nonce for each encryption operation.
-- Encrypted File Storage: Saves encrypted information in `vault.dat`.
+1. AES-256-GCM: Encrypts credentials and provides authenticated encryption.
+2. PBKDF2WithHmacSHA256: Derives a 256-bit encryption key from the master password.
+3. Random Salt: Uses a unique salt for key derivation.
+4. Random Nonce: Uses a fresh nonce for each encryption operation.
+5. Encrypted File Storage: Saves encrypted information in `vault.dat`.
 
-* Java Concepts Demonstrated
+★ Java Concepts Demonstrated
 
-- Classes and Objects
-- Encapsulation
-- Constructors
-- ArrayList and Collections
-- File Handling
-- Exception Handling
-- Java Cryptography Architecture (JCA)
-- Loops and Conditional Statements
+1. Classes and Objects
+2. Encapsulation
+3. Constructors
+4. ArrayList and Collections
+5. File Handling
+6. Exception Handling
+7. Java Cryptography Architecture (JCA)
+8. Loops and Conditional Statements
 
 
-* Advantages
+★ Advantages
   
-- Data Security: Protects stored credentials using AES-256-GCM encryption.
--  Master Password Protection: Uses a master password to access the encrypted vault.
--  Easy Management: Allows users to add, view, search, update, and delete credentials.
--  Password Generation: Generates random passwords for better account security.
-   - Secure Random Number Generation
+1. Data Security: Protects stored credentials using AES-256-GCM encryption.
+2. Master Password Protection: Uses a master password to access the encrypted vault.
+3. Easy Management: Allows users to add, view, search, update, and delete credentials.
+4. Password Generation: Generates random passwords for better account security.
+5. Data Persistence: Saves encrypted credentials locally, so data remains available after restarting.
 
