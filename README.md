@@ -1,20 +1,20 @@
  Secure Password Manager Using Core Java
 
-1. Project Overview
+* Project Overview
 
 The **Secure Password Manager** is a Java-based application designed to securely store and manage website login credentials. It allows users to add, view, search, update, and delete passwords using a simple menu-driven interface.
 
 The application uses **AES-256-GCM encryption** to protect stored credentials and **PBKDF2WithHmacSHA256** to derive an encryption key from the user's master password.
 
-2. Objectives
+* Objectives
 
 - Securely store website login credentials.
 - Protect sensitive information using encryption.
 - Generate strong random passwords.
 - Provide easy credential management.
 - Maintain encrypted data between application sessions.
-
-3. Technologies Used
+  
+* Technologies Used
 
 - Programming Language: Java
 - Concepts: Object-Oriented Programming, Collections, Exception Handling, File Handling
@@ -23,7 +23,7 @@ The application uses **AES-256-GCM encryption** to protect stored credentials an
 - IDE:Visual Studio Code
 - Storage: Local encrypted file (`vault.dat`)
 
-4. Features
+* Features
 
 1. Master Password Authentication – Create a master password to access the vault.
 2. Add Credentials – Save website names, usernames, and passwords.
@@ -35,7 +35,7 @@ The application uses **AES-256-GCM encryption** to protect stored credentials an
 8. Encrypted Storage – Store credentials in an encrypted local vault.
 9. Data Persistence – Retain saved credentials after closing and reopening the application.
 
-5. Project Structure
+* Project Structure
 
 SecurePasswordManager/
 │
@@ -54,13 +54,9 @@ SecurePasswordManager/
 
 └── vault.dat
 
-6.  Application Menu
+*  Application Menu
 
-================================
-     SECURE PASSWORD MANAGER
-================================
 
-========== MAIN MENU ==========
 1. Add Credential
    
 2. View Credentials
@@ -74,9 +70,9 @@ SecurePasswordManager/
 6. Generate Password
  
 7. Exit
-===============================
 
-7. Security Implementation
+
+* Security Implementation
 
 - AES-256-GCM: Encrypts credentials and provides authenticated encryption.
 - PBKDF2WithHmacSHA256: Derives a 256-bit encryption key from the master password.
@@ -84,7 +80,7 @@ SecurePasswordManager/
 - Random Nonce: Uses a fresh nonce for each encryption operation.
 - Encrypted File Storage: Saves encrypted information in `vault.dat`.
 
-8. Java Concepts Demonstrated
+* Java Concepts Demonstrated
 
 - Classes and Objects
 - Encapsulation
@@ -96,8 +92,8 @@ SecurePasswordManager/
 - Loops and Conditional Statements
 
 
-9.Advantages
-
+* Advantages
+  
 - Data Security: Protects stored credentials using AES-256-GCM encryption.
 -  Master Password Protection: Uses a master password to access the encrypted vault.
 -  Easy Management: Allows users to add, view, search, update, and delete credentials.
